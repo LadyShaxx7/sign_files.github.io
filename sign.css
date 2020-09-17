@@ -1,0 +1,67 @@
+
+
+.SIGN_anim {
+  display: flex;
+  width: 220px;
+  height:105px;
+}
+.IMG_sign {
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-size: cover;
+  border:2px solid black;
+  box-shadow: 0px 0px 2px black;
+  position: relative;
+  overflow: hidden;
+  transition:2s;
+  opacity: 0.9;
+}
+.SIGN_word1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  color:white;
+  display:block;
+  position:absolute;
+  width:100px;
+  height:20px;
+  text-transform:uppercase;
+  text-align:center;
+  font-size:8px;
+  letter-spacing:4px;
+  transition:2s;
+  top: -100px;
+  left: 0px;
+}
+.SIGN_word2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    color:white;
+    display:block;
+    position:absolute;
+    top:40px;
+    right:-100px;
+    width:100px;
+    height:20px;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:8px;
+    letter-spacing:4px;
+    transition:2s;
+}
+.SIGN_word3 {
+      font-family: 'Sorts Mill Goudy', serif;
+      color:white;
+      display:block;
+      position:absolute;
+      top:40px;
+      left:-100px;
+      width:100px;
+      height:20px;
+      text-transform:uppercase;
+      text-align:center;
+      font-size:8px;
+      letter-spacing:4px;
+      transition:2s;
+}
+.IMG_sign:hover>.SIGN_word1 {top:40px;}
+.IMG_sign:hover>.SIGN_word2 {right:0px;}
+.IMG_sign:hover>.SIGN_word3 {left:0px;}
